@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.form-control {
+    background-color: #444a57;
+    border-radius: 10px;
+    color: rgb(204, 203, 223);
+    width: 100%;
+}
+
+.form-control:focus {
+    background-color: #444a57;
+    color: white;
+}
+
+textarea {
+    resize: none;
+}
+
+.label-in-textarea {
+    position: relative;
+    width: 100%;
+    margin-right: 10px;
+}
+
+textarea:focus+label {
+    display: none;
+}
+
+textarea:valid+label {
+    display: none;
+}
+
+.form__label {
+    display: block;
+    color: #0b0c0e;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 14px;
+}
