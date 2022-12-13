@@ -1,0 +1,134 @@
+/*!****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/layout/css/style.css ***!
+  \****************************************************************************/
+* {
+    margin: 0 auto;
+}
+
+.body_background {
+    min-height: 100vh;
+    background-color: #282c34;
+}
+
+.root__messages {
+    max-width: 1140px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    width: 100%;
+}
+/*!************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/containers/ChatList/style.css ***!
+  \************************************************************************************************/
+.chat-list {
+    width: 40%;
+}
+/*!************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/Message/style.css ***!
+  \************************************************************************************/
+.message__h1 {
+    color: #61dafb;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.message__p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.message__sent {
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
+    background-color: #5e697f;
+}
+
+.message__received {
+    text-align: left;
+    margin-right: auto;
+    margin-left: 0;
+    background-color: #444a57;
+}
+
+.message {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 95%;
+    white-space: pre;
+}
+
+.message__time {
+    text-align: right;
+    font-size: 10px;
+    color: #a0b2d6;
+    margin-bottom: 0;
+}
+/*!*********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/Send/style.css ***!
+  \*********************************************************************************/
+* {
+    box-sizing: border-box;
+}
+
+.input-group {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+/*!******************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/Send/Textarea/style.css ***!
+  \******************************************************************************************/
+* {
+    box-sizing: border-box;
+}
+
+.form-control {
+    border-radius: 10px;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    padding: 5px;
+}
+
+.label-in-textarea {
+    position: relative;
+    width: 100%;
+    margin-right: 10px;
+}
+
+textarea::placeholder {
+    color: #b0bec5;
+}
+/*!****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/Send/Button/style.css ***!
+  \****************************************************************************************/
+* {
+    box-sizing: border-box;
+}
+
+.input-group__i {
+    display: block;
+    color: #3a65c2;
+    padding: 10px;
+    background: none;
+    border: none;
+}
+/*!***************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/containers/MessageList/style.css ***!
+  \***************************************************************************************************/
+.message-list {
+    width: 60%;
+    margin: 30px;
+}
+
+.message-list__list {
+    width: 100%;
+}

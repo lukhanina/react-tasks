@@ -1,0 +1,8 @@
+.message-list {
+    width: 60%;
+    margin: 30px;
+}
+
+.message-list__list {
+    width: 100%;
+}
