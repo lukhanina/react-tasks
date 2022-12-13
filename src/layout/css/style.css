@@ -1,0 +1,19 @@
+* {
+    margin: 0 auto;
+}
+
+.body_background {
+    min-height: 100vh;
+    background-color: #282c34;
+}
+
+.root__messages {
+    max-width: 1140px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    width: 100%;
+}
