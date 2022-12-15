@@ -1,0 +1,35 @@
+{ 
+"1": {
+    "chatName": "Chat with Bot",
+    "contactName": "Bot",
+    "avatar": "img/robot.png",
+    "messages": [{
+        "id": "1_1",
+        "author": {
+            "name": "Bot",
+            "id": "1"
+        },
+        "text": "I'm robot",
+        "date": "12/9/2022",
+        "time": "09:30",
+        "type": "received"
+        }
+    ]
+},
+"2": {
+    "chatName": "Brunch this week?",
+    "contactName": "Bestfriend",
+    "avatar": "img/girl.jpg",
+    "messages": [{
+        "id": "2_1",
+        "author": {
+            "name": "Bestfriend",
+            "id": "3"
+        },
+        "text": "Hi you!",
+        "date": "12/9/2022",
+        "time": "10:00",
+        "type": "received"
+    }]
+}
+}
