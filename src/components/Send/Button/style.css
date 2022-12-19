@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.input-group__i {
+    display: block;
+    color: #3a65c2;
+    padding: 10px;
+    background: none;
+    border: none;
+}

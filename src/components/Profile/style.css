@@ -1,0 +1,33 @@
+.absolute {
+    position: absolute;
+}
+
+.profile {
+    box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.8);
+    background-color: #444a57;
+    z-index: 9999;
+    justify-content: center;
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    align-items: center;
+    position: relative;
+    font-size: 16px;
+}
+
+
+.close-profile {
+    font-size: 1.5em;
+    top: 0px;
+    position: absolute;
+    right: 0;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.profile__checkbox {
+    width: 100%;
+    text-align: center;
+}

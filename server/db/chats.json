@@ -1,0 +1,82 @@
+{
+    "1": {
+        "chatName": "Chat with Bot",
+        "contactName": "Bot",
+        "avatar": "img/robot.png",
+        "messages": [
+            {
+                "id": "1_1",
+                "author": {
+                    "name": "Bot",
+                    "id": "1"
+                },
+                "text": "I'm robot",
+                "date": "09. 12. 2022",
+                "time": "09:30",
+                "type": "received"
+            },
+            {
+                "author": {
+                    "name": "Anna Lukhanina",
+                    "id": 2
+                },
+                "id": "1_2",
+                "text": "Hi",
+                "date": "19. 12. 2022",
+                "time": "10:41",
+                "type": "sent"
+            },
+            {
+                "author": {
+                    "name": "Bot",
+                    "id": 1
+                },
+                "id": "1_3",
+                "text": "I'm Bot",
+                "date": "19. 12. 2022",
+                "time": "10:41",
+                "type": "received"
+            }
+        ]
+    },
+    "2": {
+        "chatName": "Brunch this week?",
+        "contactName": "Bestfriend",
+        "avatar": "img/girl.jpg",
+        "messages": [
+            {
+                "id": "2_1",
+                "author": {
+                    "name": "Bestfriend",
+                    "id": "3"
+                },
+                "text": "Hi you!",
+                "date": "09. 12. 2022",
+                "time": "10:00",
+                "type": "received"
+            },
+            {
+                "author": {
+                    "name": "Anna Lukhanina",
+                    "id": 2
+                },
+                "id": "2_2",
+                "text": "How are you?",
+                "date": "16. 12. 2022",
+                "time": "12:48",
+                "type": "sent"
+            },
+            {
+                "author": {
+                    "name": "Bot",
+                    "id": 1
+                },
+                "id": "2_3",
+                "text": "I'm Bot",
+                "date": "16. 12. 2022",
+                "time": "18:09",
+                "type": "received"
+            }
+        ]
+    }
+}
