@@ -15,7 +15,7 @@ export default function Profile() {
           </button>
         </Link>
         <div className='profile__checkbox'>
-          <input type="checkbox" id="byEnter" name="onEnter" value="byEnter" onChange={(event) => {dispatch(byEnter(event.target.checked))}} defaultChecked={byEnterValue}/>
+          <input type="checkbox" id="byEnter" name="onEnter" value="byEnter" onChange={() => {dispatch(byEnter())}} defaultChecked={byEnterValue}/>
           <label htmlFor="byEnter">Send by Enter</label>
         </div>
       </div>

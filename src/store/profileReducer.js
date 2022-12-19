@@ -2,9 +2,8 @@ const initialState = {
   byEnter: true
 };
 
-export const byEnter = (value) => ({
-  type: 'CHANGE_BY_ENTER',
-  payload: value
+export const byEnter = () => ({
+  type: 'CHANGE_BY_ENTER'
 })
 
 export const profileReducer = (state = initialState, action) => {
@@ -12,7 +11,7 @@ export const profileReducer = (state = initialState, action) => {
   case 'CHANGE_BY_ENTER': 
     return {
       ...state,
-      byEnter: action.payload
+      byEnter: !state.byEnter
     }
   default:
     return state
