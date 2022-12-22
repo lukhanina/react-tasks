@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.form-control {
+    border-radius: 10px;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    padding: 5px;
+}
+
+.label-in-textarea {
+    position: relative;
+    width: 100%;
+    margin-right: 10px;
+}
+
+textarea::placeholder {
+    color: #b0bec5;
+}
