@@ -10,6 +10,8 @@ import Avatar from '@mui/material/Avatar';
 import { NavLink } from 'react-router-dom';
 import { delChat } from '../../../store/msgReducer';
 import { useDispatch } from 'react-redux';
+import './static/images/avatar/girl.jpg';
+import './static/images/avatar/robot.png'
     
 export function ChatList(props) {
   const chats = props.chats;
