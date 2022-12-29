@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+.input-group {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
