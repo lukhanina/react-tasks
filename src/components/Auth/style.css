@@ -1,0 +1,39 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#enter-p {
+    display: flex;
+    flex-direction: column;
+}
+
+#auth-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.b-transp {
+    display: block;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+    min-width: 70px;
+}
+
+.enter-btn {
+    box-shadow: 0 0 10px rgb(0 0 0);
+}
+
+.enter-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
