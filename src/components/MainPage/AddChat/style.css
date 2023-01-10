@@ -1,0 +1,16 @@
+.add-chat{
+    box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.8);
+    background-color: #444a57;
+    z-index: 9999;
+    justify-content: center;
+    display: flex;
+    width: 250px;
+    height: 30vh;
+    align-items: center;
+    position: relative;
+    font-size: 16px;
+}
+
+.add-chat__input {
+   max-width: 200px;
+}
